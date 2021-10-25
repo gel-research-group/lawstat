@@ -1,0 +1,22 @@
+#' Population Size of 33 Districts of the Tennessee Legislature in 1900, 1960, and 1972
+#' 
+#' The Baker v. Carr Case: one-person-one-vote decision. Measure of 
+#' Relative Inequality of Population data in 33 districts 
+#' of the Tennessee Legislature in 1900, 1960, and 1972 
+#' \insertCite{Gastwirth_1988v1}{lawstat}.
+#' 
+#' @name popdata
+#' @usage data(popdata)
+#' @docType data
+#' @format A data frame with 33 observations on the following 3 numeric variables:
+#' \describe{
+#'     \item{\code{pop1900}}{population data in 1900}
+#'     \item{\code{pop1960}}{population data in 1960}
+#'     \item{\code{pop1972}}{population data in 1972}
+#' }
+#' 
+#' @source \insertCite{Gastwirth_1988v1;textual}{lawstat}.
+#' 
+#' @references \insertAllCited{}
+#' @keywords data
+NULL

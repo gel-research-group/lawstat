@@ -1,0 +1,29 @@
+#' Apertures of Chupa Pots from Three Philippine Communities
+#' 
+#' The apertures of the chupa pots from three Philippine locations: 
+#' Dalupa (\code{ApDl}), Dangtalan (\code{ApDg}), and Paradijon (\code{ApP}).
+#' 
+#' @details Archaeologists are concerned with the effect that increasing economic activity 
+#' had on older civilizations. Economic growth and its related economic specialization 
+#' led to the "standardization hypothesis", i.e., increased production of an item would 
+#' lead to its becoming more uniform. \insertCite{Kvamme_etal_1996;textual}{lawstat} focused 
+#' on earthenware, chupa-pots from three Philippine communities that differ in 
+#' the way they organize ceramic production. In Dangtalan, pottery is primarily made 
+#' for household use; in Dalupa there is a non-market barter economy where potters 
+#' exchange their works. In the village of Paradijon, near the provincial capital, 
+#' full-time pottery specialists sell their output to shopkeepers for sale to 
+#' the general public.
+#' 
+#' @name pot
+#' @usage data(pot)
+#' @docType data
+#' @format A data frame with 343 observations of 2 variables: \code{obs} 
+#' (integer values of observed apertures) 
+#' and locations (factor with 3 levels).
+#' 
+#' @source The data are kindly provided by Professor Kvamme 
+#' \insertCite{Kvamme_etal_1996}{lawstat}.
+#' 
+#' @references \insertAllCited{}
+#' @keywords data
+NULL
